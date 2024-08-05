@@ -1,0 +1,124 @@
+/* Modal Menu */
+
+.modalMenuList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.modalMenuItem {
+  position: relative;
+}
+
+.modalMenuItem::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  transition: background-color 0.3s ease;
+}
+
+.modalMenuItem:hover::after {
+  background-color: var(--text-hover-blue);
+}
+
+.modalMenuLink {
+  font-family: Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--text-color-white);
+  transition: color 0.3s ease;
+}
+
+.modalMenuLink:hover {
+  color: var(--text-hover-blue);
+}
+
+@media screen and (min-width: 768px) {
+  .modalMenuList {
+    gap: 32px;
+  }
+}
+
+/* Header Menu */
+
+.headerMenuList {
+  display: flex;
+  gap: 40px;
+}
+
+.headerMenuItem {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerMenuItem::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  transition: background-color 0.3s ease;
+}
+
+.headerMenuItem:hover::after {
+  background-color: var(--text-hover-blue);
+}
+
+.headerMenuLink {
+  color: var(--text-color-black);
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  transition: color 0.3s ease;
+  &:hover {
+    color: var(--text-hover-blue);
+  }
+}
+
+/* Footer Menu */
+
+.footerMenuList {
+  display: flex;
+  column-gap: 16px;
+  row-gap: 8px;
+  flex-wrap: wrap;
+}
+
+.footerMenuItem {
+}
+
+.footerMenuLink {
+  color: var(--text-color-white);
+  font-family: Gilroy;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  transition: color 0.3s ease;
+}
+
+.footerMenuLink:hover {
+  color: var(--text-hover-blue);
+}
+
+@media screen and (min-width: 768px) {
+  .footerMenuLink {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

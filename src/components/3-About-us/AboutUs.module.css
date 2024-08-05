@@ -1,0 +1,25 @@
+.section {
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  color: rgb(25, 210, 164);
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    gap: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    flex-direction: row;
+  }
+}

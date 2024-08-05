@@ -1,0 +1,18 @@
+.imgContainer {
+  height: 512px;
+  object-fit: contain;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .imgContainer {
+    height: 556px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .imgContainer {
+    flex: 1.2;
+  }
+}

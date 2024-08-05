@@ -1,0 +1,100 @@
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 1024px) {
+  .content {
+    background-image: url(../../img/5-Advertisement/advertisemenMob.png);
+  }
+}
+
+.content {
+  padding: 60px 28px 60px 28px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(../../img/5-Advertisement/advertisemenMob.webp);
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .content {
+    background-image: url(../../img/5-Advertisement/advertisemenMob@2x.webp);
+  }
+}
+
+.p {
+  color: var(--text-color-white);
+  font-family: Gilroy;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.64px;
+  span {
+    color: var(--text-color-advertisement-your-story);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  @media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 1024px) {
+    .content {
+      background-image: url(../../img/5-Advertisement/advertisemenTab.png);
+    }
+  }
+
+  .content {
+    padding: 80px 64px 80px 64px;
+    gap: 32px;
+    background-image: url(../../img/5-Advertisement/advertisemenTab.webp);
+  }
+
+  .p {
+    font-size: 48px;
+    line-height: 44px;
+    letter-spacing: -0.96px;
+    max-width: 550px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .content {
+      background-image: url(../../img/5-Advertisement/advertisemenTab@2x.webp);
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  @media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 1024px) {
+    .content {
+      background-image: url(../../img/5-Advertisement/advertisemenDes.png);
+    }
+  }
+
+  .content {
+    padding: 83px 80px 83px 80px;
+    flex-direction: row;
+    gap: 140px;
+    background-image: url(../../img/5-Advertisement/advertisemenDes.webp);
+  }
+
+  .p {
+    max-width: 685px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .content {
+      background-image: url(../../img/5-Advertisement/advertisemenDes@2x.webp);
+    }
+  }
+}

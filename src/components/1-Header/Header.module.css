@@ -1,0 +1,35 @@
+.container {
+  height: 74px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    height: 92px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    height: 88px;
+  }
+}

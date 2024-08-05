@@ -1,0 +1,27 @@
+.logo {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  transition: color 0.3s ease;
+  &:hover {
+    color: var(--text-hover-blue);
+  }
+}
+
+.logoMenu {
+  color: var(--text-color-black);
+}
+
+.logoFooter {
+  color: var(--text-color-white);
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    font-size: 20px;
+    letter-spacing: -0.4px;
+  }
+}

@@ -1,0 +1,105 @@
+.container {
+  padding: 48px 28px 48px 28px;
+  border-radius: 30px;
+  background-color: var(--background-color-grey);
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.p {
+  color: var(--text-color-grey);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.input {
+  padding-left: 14px;
+  height: 42px;
+  width: 100%;
+  border-radius: 12px;
+  outline: none;
+  border: 1px solid rgba(12, 12, 12, 0.15);
+  background-color: var(--background-color-grey);
+  &::placeholder {
+    color: var(--text-color-black);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  &:hover,
+  :focus,
+  :active {
+    outline: 1px solid var(--color-blue);
+  }
+}
+
+.textarea {
+  padding-left: 14px;
+  padding-top: 12px;
+  height: 84px;
+  width: 100%;
+  outline: none;
+  border-radius: 12px;
+  border: 1px solid rgba(12, 12, 12, 0.15);
+  resize: none;
+  background-color: var(--background-color-grey);
+  &::placeholder {
+    color: var(--text-color-black);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  &:hover,
+  :focus,
+  :active {
+    outline: 1px solid var(--color-blue);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 50px 122px 50px 122px;
+    gap: 32px;
+  }
+
+  .input {
+    padding-left: 16px;
+    height: 52px;
+    &::placeholder {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+
+  .textarea {
+    padding-left: 16px;
+    padding-top: 16px;
+    height: 90px;
+    &::placeholder {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+
+  .p {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    padding: 50px 60px 50px 60px;
+    flex: 1;
+  }
+}

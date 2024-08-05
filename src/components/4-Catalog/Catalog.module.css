@@ -1,0 +1,57 @@
+.container {
+}
+
+.title {
+  margin-bottom: 24px;
+  color: var(--text-color-black);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.64px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.catalogBtn {
+  width: 160px;
+  height: 48px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  background-color: var(--color-blue);
+  border-radius: 16px;
+  margin-top: 40px;
+  transition: background-color 0.3s ease;
+  color: var(--text-color-white);
+  &:hover {
+    background-color: var(--button-hover-blue);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: 44px;
+    letter-spacing: -0.96px;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .list {
+    column-gap: 23px;
+  }
+}

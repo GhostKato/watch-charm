@@ -1,0 +1,103 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: opacity 1s ease;
+  z-index: 99999;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 1024px) {
+  .container {
+    background-image: url(../../img/10-Modal/backgroundModalMob.jpg);
+  }
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(12, 12, 12, 0.92) 0%,
+      rgba(12, 12, 12, 0.92) 100%
+    ),
+    url(../../img/10-Modal/backgroundModalMob.webp);
+  background-color: lightgray;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding-top: 240px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .container {
+    background-image: url(../../img/10-Modal/backgroundModalMob@2x.webp);
+  }
+}
+
+.btn {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 200px;
+    position: absolute;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  @media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 1024px) {
+    .container {
+      background-image: url(../../img/10-Modal/backgroundModalTab.jpg);
+    }
+  }
+
+  .container {
+    width: 330px;
+    padding-top: 310px;
+    padding-bottom: 50px;
+
+    background-image: url(../../img/10-Modal/backgroundModalTab.webp);
+  }
+
+  .btn {
+    top: 26px;
+    right: 32px;
+    width: 40px;
+    height: 40px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .container {
+      background-image: url(../../img/10-Modal/backgroundModalTab@2x.webp);
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .modal {
+    display: none;
+  }
+}

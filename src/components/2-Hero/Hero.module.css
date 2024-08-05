@@ -1,0 +1,139 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.textContainer {
+  position: relative;
+  padding-bottom: 72px;
+}
+
+.title {
+  color: var(--text-color-black);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: -0.8px;
+  span {
+    color: var(--color-blue);
+  }
+}
+
+.p {
+  color: var(--text-color-grey);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  margin-top: 20px;
+  max-width: 320px;
+}
+
+.list {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.item {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+
+.item1 {
+  margin-right: -11px;
+}
+
+.item2 {
+  margin-right: -11px;
+}
+
+.btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: var(--text-color-black);
+  font-family: Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  text-decoration-line: underline;
+  background-color: transparent;
+  border: none;
+  transition: color 0.3s ease;
+  &:hover {
+    color: var(--button-hover-blue);
+  }
+}
+.imgContainer {
+  width: 100%;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    gap: 40px;
+  }
+
+  .textContainer {
+    padding-bottom: 0;
+  }
+
+  .title {
+    font-size: 70px;
+    line-height: 60px;
+    letter-spacing: -1.4px;
+    max-width: 557px;
+  }
+
+  .p {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+    max-width: 480px;
+  }
+
+  .list {
+    top: 0;
+    left: 555px;
+  }
+
+  .item {
+    width: 56px;
+    height: 56px;
+  }
+
+  .btn {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .title {
+    font-size: 72px;
+    line-height: 63px;
+    letter-spacing: -1.44px;
+    max-width: 600px;
+  }
+
+  .list {
+    top: 0;
+    left: 990px;
+  }
+
+  .item {
+    width: 60px;
+    height: 60px;
+  }
+}
