@@ -3,7 +3,7 @@ import s from './ContentImage.module.css';
 const ContentImage = ({
   mobWebp1x, mobWebp2x, mob1x, mob2x,
   tabWebp1x, tabWebp2x, tab1x, tab2x,
-  deskWebp1x, deskWebp2x, desk1x, desk2x, alt, width, type
+  deskWebp1x, deskWebp2x, desk1x, desk2x, alt, width, type, style
 }) => (
   <picture>
    
@@ -44,6 +44,7 @@ const ContentImage = ({
     />
    
     <img
+      className={s[style]}
       src={mobWebp1x}      
       alt={alt}
       loading="lazy"

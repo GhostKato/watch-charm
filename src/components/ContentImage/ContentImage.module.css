@@ -1,0 +1,21 @@
+.saleSmallImage {
+  width: 52px;
+  height: 54px;
+}
+
+.saleBigImage {
+  width: 235px;
+  height: 285px;
+}
+
+@media screen and (min-width: 768px) {
+  .saleSmallImage {
+    width: 96px;
+    height: 100px;
+  }
+
+  .saleBigImage {
+    width: 328px;
+    height: 398px;
+  }
+}

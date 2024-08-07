@@ -1,10 +1,17 @@
 import s from './Sale.module.css';
+import SaleImage from './SaleImage/SaleImage';
+import SaleText from './SaleText/SaleText';
+
 
 const Sale = () => {
   return (
-    <section className={`${s.section} section`}>
-      <div className={`${s.container} container`}>
-        <h2 className={s.title}>6-Sale</h2>
+    <section className='section'>
+      <div className='container'>
+        <h2 className={s.title}>Sale</h2>
+        <div className={s.content}>
+          <SaleImage />
+          <SaleText/>
+        </div>
       </div>
   </section>
   )
