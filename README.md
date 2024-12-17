@@ -94,4 +94,6 @@ This project is a website designed to showcase a collection of wristwatches. The
 
 ---
 
+This site allows users to comfortably get acquainted with various models of wristwatches, filter them according to the necessary criteria and receive all the necessary information without unnecessary steps. Thanks to the adaptive design, the site is optimized for any device, which guarantees ease of use on smartphones, tablets and desktops.
+
 
