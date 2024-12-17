@@ -87,5 +87,11 @@ This project is a website designed to showcase a collection of wristwatches. The
 4. **Adaptability:**
    - **CSS Media Queries**
    - **Flexbox**
+  
+5. **Adaptability:**
+   - **CSS Media Queries**
+   - **Flexbox**
 
 ---
+
+
