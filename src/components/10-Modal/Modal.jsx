@@ -2,7 +2,7 @@ import ReactModal from 'react-modal';
 import Menu from '../Menu/Menu';
 import Social from '../Social/Social';
 import s from './Modal.module.css';
-import Closes from '../Icons/OpenMenu/OpenMenu';
+import Closes from '../Icons/Сloses/Closes';
 
 
 ReactModal.setAppElement('#root');

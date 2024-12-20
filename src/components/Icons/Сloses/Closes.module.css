@@ -1,8 +1,11 @@
 .iconCloses {
   width: 25px;
   height: 25px;
-  transition: stroke 0.3s ease;
-  stroke: var(--text-color-white);
+  transition: color 0.3s ease;
+  color: var(--text-color-white);
+  &:hover {
+    color: var(--text-hover-blue);
+  }
 }
 
 @media screen and (min-width: 768px) {
