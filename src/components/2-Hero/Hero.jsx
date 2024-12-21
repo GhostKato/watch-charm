@@ -52,6 +52,7 @@ import people3DesWebp from '../../img/2-Hero/people3Des.webp'
 import people3Des2xWebp from '../../img/2-Hero/people3Des@2x.webp'
 import people3Des from '../../img/2-Hero/people3Des.jpg'
 import people3Des2x from '../../img/2-Hero/people3Des@2x.jpg'
+import scrollToSection from '../../utils/scroll';
 
 const Hero = () => { 
 
@@ -128,7 +129,7 @@ const Hero = () => {
 />    
             </li>
           </ul>
-          <button className={s.btn}>Scroll down</button>
+          <button className={s.btn} onClick={() => scrollToSection('footer')}>Scroll down</button>
         </div>
         <div className={s.imgContainer}>  
           

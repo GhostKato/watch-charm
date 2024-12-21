@@ -20,7 +20,7 @@ const Modal = ({isOpenModalMenu, toggleModalMenu}) => {
         <button className={s.btn} onClick={toggleModalMenu}>
           <Closes/>
         </button>
-        <Menu styleList='modalMenuList' styleItem='modalMenuItem' styleLink='modalMenuLink' />
+        <Menu styleList='modalMenuList' styleItem='modalMenuItem' styleLink='modalMenuLink' toggleModalMenu={toggleModalMenu} />
         <Social styleIcon='modalSocialIcon'/>
       </div>
     </ReactModal>

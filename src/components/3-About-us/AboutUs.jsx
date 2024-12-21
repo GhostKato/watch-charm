@@ -4,7 +4,7 @@ import AboutUsText from './AboutUsText/AboutUsText';
 
 const AboutUs = () => {
   return (
-    <section className={`${s.section} section`}>
+    <section className={`${s.section} section`} id="about-us">
       <div className={`${s.container} container`}>
         <AboutUsText/>
         <AboutUsImage />        

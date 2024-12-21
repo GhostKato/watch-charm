@@ -5,7 +5,7 @@ import s from './Footer.module.css';
 
 const Footer = () => {
   return (
-    <footer className={`${s.footer} section`}>
+    <footer className={`${s.footer} section`} id='footer'>
       <div className={s.container}>
         <div className={s.content}>
           <div className={s.logoSocialNumber}>

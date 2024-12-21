@@ -1,14 +1,14 @@
 import s from './Menu.module.css';
 
-const Menu = ({styleList, styleItem, styleLink}) => {
+const Menu = ({styleList, styleItem, styleLink, toggleModalMenu}) => {
     return (
         <ul className={s[styleList]}>
-        <li className={s[styleItem]}><a className={s[styleLink]} href="">Home</a></li>
-        <li className={s[styleItem]}><a className={s[styleLink]} href="#projects">About Us</a></li>
-        <li className={s[styleItem]}><a className={s[styleLink]} href="#contacts">Catalog</a></li>
-        <li className={s[styleItem]}><a className={s[styleLink]} href="#sale">Sale</a></li>
-        <li className={s[styleItem]}><a className={s[styleLink]} href="#reviews">Reviews</a></li>
-        <li className={s[styleItem]}><a className={s[styleLink]} href="#contact-us">Contact Us</a></li>
+        <li className={s[styleItem]} onClick={toggleModalMenu}><a className={s[styleLink]} href="#home">Home</a></li>
+        <li className={s[styleItem]} onClick={toggleModalMenu}><a className={s[styleLink]} href="#about-us">About Us</a></li>
+        <li className={s[styleItem]} onClick={toggleModalMenu}><a className={s[styleLink]} href="#catalog">Catalog</a></li>
+        <li className={s[styleItem]} onClick={toggleModalMenu}><a className={s[styleLink]} href="#sale">Sale</a></li>
+        <li className={s[styleItem]} onClick={toggleModalMenu}><a className={s[styleLink]} href="#reviews">Reviews</a></li>
+        <li className={s[styleItem]} onClick={toggleModalMenu}><a className={s[styleLink]} href="#contact-us">Contact Us</a></li>
         </ul>
     )
 }

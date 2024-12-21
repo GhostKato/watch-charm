@@ -5,7 +5,7 @@ import SaleText from './SaleText/SaleText';
 
 const Sale = () => {
   return (
-    <section className='section'>
+    <section className='section' id='sale'>
       <div className='container'>
         <h2 className={s.title}>Sale</h2>
         <div className={s.content}>

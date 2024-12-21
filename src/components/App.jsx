@@ -21,7 +21,7 @@ function App() {
       <Header toggleModalMenu={toggleModalMenu} />
       <main className={s.main}>
         <Hero />
-        <AboutUs />
+        <AboutUs/>
         <Catalog />
         <Advertisement />
         <Sale />

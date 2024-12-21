@@ -53,7 +53,7 @@ const Reviews = () => {
   }, [webPSupported]);
 
   return (
-   <section className='section'>
+   <section className='section' id='reviews'>
       <div className='container'>
         <h2 className={s.title}>Reviews</h2>
         <Toaster />

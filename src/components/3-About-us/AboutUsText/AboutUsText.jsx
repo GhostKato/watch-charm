@@ -11,7 +11,7 @@ const AboutUsText = () => {
           <p className={s.p2}>At our premium watch collection, we believe that a watch is more than just a timekeeping device – it's a
               statement piece that reflects your personality and style.
               So why settle for anything less than the best? </p>
-          <Button style='aboutUsBtn' text='View catalog' type='button'/>
+          <Button style='aboutUsBtn' text='View catalog' type='button' click={'catalog'}/>
     </div>
   )
 }

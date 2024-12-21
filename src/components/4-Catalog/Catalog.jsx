@@ -9,7 +9,7 @@ const Catalog = () => {
   const imagesToDisplay = imagesData.slice(0, displayCount);    
 
   return (
-    <section className='section'>
+    <section className='section' id='catalog'>
       <div className={`${s.container} container`}>
         <h2 className={s.title}>Catalog</h2>
 

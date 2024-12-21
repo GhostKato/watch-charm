@@ -9,7 +9,7 @@ const Advertisement = () => {
           <h2 className='visually-hidden'>Advertisement</h2>
           <p className={s.p}>Choose <span>your story</span>, making every moment unique.
             Time is your style, and we reveal it.</p>
-          <Button style='advertisementBtn' text='Contact Us' type='button'/>
+          <Button style='advertisementBtn' text='Contact Us' type='button' click={'contact-us'}/>
         </div>
       </div>
   </section>
