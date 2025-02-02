@@ -16,25 +16,25 @@ This project is a website designed to showcase a collection of wristwatches. The
    - Easy to navigate: access to all watch models in a few clicks.
    - Detailed information about each model (photo, features, price, availability).
 
-   ![header](./src/img/readme/header.png)
+![header](./src/img/readme/header.png)
 
 2. **Adaptive design:**
 
    - The site automatically adapts to different screen sizes, which allows users to comfortably view the site both on desktops and on mobile devices.
 
-   ![about-us](./src/img/readme/about-us.png)
+![about-us](./src/img/readme/about-us.png)
 
 3. **Dynamic Content:**
 
    - Thanks to the use of React, the site downloads information about the watch dynamically, which allows you to maintain high speed without rebooting the page.
 
-   ![catalog](./src/img/readme/catalog.png)
+![catalog](./src/img/readme/catalog.png)
 
 4. **Animations and Effects:**
 
    - The site contains smooth animations and effects when hovering over elements, which makes the user experience more intuitive and enjoyable.
 
-   ![your-story](./src/img/readme/your-story.png)
+![your-story](./src/img/readme/your-story.png)
 
 ---
 
@@ -44,19 +44,19 @@ This project is a website designed to showcase a collection of wristwatches. The
 
    - Development of site layouts, selection of colors and fonts, creation of stylized clock cards and navigation elements.
 
-   ![sale](./src/img/readme/sale.png)
+![sale](./src/img/readme/sale.png)
 
 2. **Testing:**
 
    - Testing the site on different devices and browsers to ensure compatibility and adaptability.
 
-   ![reviews](./src/img/readme/reviews.png)
+![reviews](./src/img/readme/reviews.png)
 
 3. **Launch and support:**
 
    - Publication of the site on the Internet and subsequent update based on user feedback.
 
-   ![contact-us](./src/img/readme/contact-us.png)
+![contact-us](./src/img/readme/contact-us.png)
 
 ---
 
